@@ -7,7 +7,7 @@
 
 * 🌱 I’m currently learning **Machine Learning, NLP, Data Analysis, and Deep Learning**
 
-* 👯 I’m looking to collaborate on **ML Projects **
+* 👯 I’m looking to collaborate on **ML Projects**
 
 * 👨‍💻 All of my projects are available at [https://github.com/SATYAJIT2747](https://github.com/SATYAJIT2747)
 
