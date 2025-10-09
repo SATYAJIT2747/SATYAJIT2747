@@ -7,7 +7,7 @@
 
 * 🌱 I’m currently learning **Machine Learning, NLP, Data Analysis, and Deep Learning**
 
-* 👯 I’m looking to collaborate on **ML Projects and Research Work**
+* 👯 I’m looking to collaborate on **ML Projects **
 
 * 👨‍💻 All of my projects are available at [https://github.com/SATYAJIT2747](https://github.com/SATYAJIT2747)
 
@@ -53,7 +53,7 @@
 
 <h3 align="left">📊 LeetCode Stats:</h3>
 
-[![Leetcode Stats](https://leetcard.jacoblin.cool/ANONYMOUS_SATYAJIT?theme=dark\&font=baloo_2\&ext=contest)](https://leetcode.com/u/ANONYMOUS_SATYAJIT/)
+[![Leetcode Stats](https://leetcard.jacoblin.cool/ANONYMOUS_SATYAJIT?theme=dark\&font=baloo_2\&ext=heatmap)](https://leetcode.com/u/ANONYMOUS_SATYAJIT/)
 
 ---
 
