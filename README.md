@@ -35,10 +35,25 @@
 
 <h3 align="left">💻 Coding Profiles:</h3>
 <p align="left">
-<a href="https://www.leetcode.com/anonymous_satyajit" target="blank">
-  <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="anonymous_satyajit" height="30" width="40" />
+<a href="https://leetcode.com/u/ANONYMOUS_SATYAJIT/" target="blank">
+  <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="LeetCode" height="30" width="40" />
+</a>
+<a href="https://codeforces.com/profile/your_username" target="blank">
+  <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="Codeforces" height="30" width="40" />
+</a>
+<a href="https://www.hackerrank.com/your_username" target="blank">
+  <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="Hackerrank" height="30" width="40" />
+</a>
+<a href="https://auth.geeksforgeeks.org/user/your_username/profile" target="blank">
+  <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/4/43/GeeksforGeeks.svg" alt="GeeksforGeeks" height="30" width="40" />
 </a>
 </p>
+
+---
+
+<h3 align="left">📊 LeetCode Stats:</h3>
+
+[![Leetcode Stats](https://leetcard.jacoblin.cool/ANONYMOUS_SATYAJIT?theme=dark\&font=baloo_2\&ext=contest)](https://leetcode.com/u/ANONYMOUS_SATYAJIT/)
 
 ---
 
