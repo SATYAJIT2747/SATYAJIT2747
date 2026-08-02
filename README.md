@@ -15,7 +15,7 @@
 
 * 📫 How to reach me **[satyajit.priyadarshi@students.iiit.ac.in](mailto:satyajit.priyadarshi@students.iiit.ac.in)**
 
-* 📄 Know about my experiences [My Resume](https://drive.google.com/file/d/1ntmZvkTSxGnJQwDCg7cNzL_OulK7dsoM/view?usp=sharing)
+* 📄 Know about my experiences [My Resume](https://drive.google.com/file/d/1lwyn2YvJfkKzRSxZuHda3BXxr_xzwjXD/view?usp=sharing)
 
 ---
 
@@ -30,7 +30,7 @@
 
 * **[End-to-End MLOps Pipeline for Sentiment Analysis with CI/CD on AWS EKS](https://github.com/SATYAJIT2747/MLOPS-PROJ-CI-CD)** — Reproducible DVC pipeline with S3 remote storage, MLflow experiment tracking via DagsHub, Flask inference service, GitHub Actions CI/CD to ECR, Kubernetes deployment on EKS, and Prometheus/Grafana monitoring.
 
-* **Rating Plausibility of Word Senses in Ambiguous Sentences** *(SemEval 2026 Task 5 – AmbiStory)* — Dual-encoder BiGRU architecture with a setup-aware ranking loss and KL-divergence auxiliary head, improving Spearman ρ from 0.072 to 0.640 without transformer-based architectures.
+* **[Rating Plausibility of Word Senses in Ambiguous Sentences](https://github.com/SATYAJIT2747/INLP-PROJECT)** *(SemEval 2026 Task 5 – AmbiStory)* — Dual-encoder BiGRU architecture with a setup-aware ranking loss and KL-divergence auxiliary head, improving Spearman ρ from 0.072 to 0.640 without transformer-based architectures.
 
 ---
 
