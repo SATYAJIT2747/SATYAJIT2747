@@ -15,7 +15,7 @@
 
 * 📫 How to reach me **[satyajit.priyadarshi@students.iiit.ac.in](mailto:satyajit.priyadarshi@students.iiit.ac.in)**
 
-* 📄 Know about my experiences [My Resume](https://drive.google.com/file/d/1lwyn2YvJfkKzRSxZuHda3BXxr_xzwjXD/view?usp=sharing)
+* 📄 Know about my experiences [My Resume](https://drive.google.com/file/d/16j33SfxPWfq0Y6tdw6zunPx0q8BxBXyi/view?usp=sharing)
 
 ---
 
