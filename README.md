@@ -7,9 +7,6 @@
 
 * 🌱 I'm currently learning **Machine Learning, NLP, Deep Learning, and MLOps (CI/CD, model deployment, monitoring)**
 
-* 🔭 I'm currently working on an **end-to-end MLOps pipeline for sentiment analysis**, with CI/CD on AWS EKS — DVC + MLflow/DagsHub tracking, Flask serving, GitHub Actions, Prometheus & Grafana monitoring
-
-* 👯 I'm looking to collaborate on **ML / MLOps projects**
 
 * 👨‍💻 All of my projects are available at [https://github.com/SATYAJIT2747](https://github.com/SATYAJIT2747)
 
