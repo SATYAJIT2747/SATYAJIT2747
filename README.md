@@ -10,7 +10,7 @@
 * 🔭 Building **production-oriented AI systems** with retrieval, evaluation, observability, caching, security guardrails, and deployment
 * 👨‍💻 All of my projects are available at https://github.com/SATYAJIT2747
 * 📫 How to reach me **[satyajit.priyadarshi@students.iiit.ac.in](mailto:satyajit.priyadarshi@students.iiit.ac.in)**
-* 📄 Know about my experiences [My Resume](https://drive.google.com/file/d/1lwyn2YvJfkKzRSxZuHda3BXxr_xzwjXD/view?usp=sharing)
+* 📄 Know about my experiences [My Resume](https://drive.google.com/file/d/1_axgszn8onYkyIPZ6uhfU19zPskUCzfJ/view?usp=sharing)
 
 ---
 
