@@ -23,13 +23,15 @@
 
 <h3 align="left">🚀 Featured Projects:</h3>
 
-* **[Production-Grade Advanced PDF RAG Assistant](https://github.com/SATYAJIT2747/rag-chatbot)** — Production-oriented **Retrieval-Augmented Generation (RAG)** system for arbitrary PDFs including scanned documents, slide decks, diagrams, tables, and academic notes. Implements **hybrid retrieval using FAISS + BM25 with Reciprocal Rank Fusion (RRF)**, **BGE embeddings**, **cross-encoder reranking**, parent-context expansion, **dual-tier exact/semantic caching**, local **PyMuPDF + Tesseract OCR**, and Gemini-based generation. Includes **prompt-injection, PDF-scope, and grounding guardrails**, RAG evaluation metrics, cost telemetry, SQLite persistence, and **LangSmith observability**.
-
 * **[Multi-Agent Travel Assistant](https://github.com/SATYAJIT2747/Multi-Agent-Travel-Assistant-MCP-Guardrails-HITL)** — AI-powered multi-agent travel planning system using **LangGraph, Gemini, MCP, Supervisor routing, Guardrails, and Human-in-the-Loop (HITL)**. Specialized agents handle flights, hotels, weather, budgets, and itinerary generation, with **PostgreSQL-based state persistence**.
 
-* **[End-to-End MLOps Pipeline for Sentiment Analysis with CI/CD on AWS EKS](https://github.com/SATYAJIT2747/MLOPS-PROJ-CI-CD)** — Reproducible DVC pipeline with S3 remote storage, MLflow experiment tracking via DagsHub, Flask inference service, GitHub Actions CI/CD to ECR, Kubernetes deployment on EKS, and Prometheus/Grafana monitoring.
+* **[Distributed P2P File Sharing System](https://github.com/SATYAJIT2747/Distributed-P2P-File-Sharing-System)** — C++17 hybrid **Peer-to-Peer file-sharing system inspired by BitTorrent**, featuring **dual trackers with automatic failover**, TCP-based peer-to-peer transfers, parallel piece downloads using a **ThreadPool**, and **SHA1 integrity verification with automatic retries**. Implements user authentication, group-based file sharing, tracker synchronization, seeder promotion, and fault-tolerant metadata recovery. Optimized 1 GB downloads from roughly **3 minutes to ~3.4 seconds** using a fixed-size worker pool.
 
 * **[Rating Plausibility of Word Senses in Ambiguous Narratives](https://github.com/SATYAJIT2747/INLP-PROJECT)** *(SemEval 2026 Task 5 – AmbiStory)* — Two-phase system: Phase 1 iterated 9 recurrent models (Spearman ρ: 0.072→0.640) using setup-grouped comparative ranking; Phase 2 pivoted to transformer encoders (MPNet, DeBERTa-v3), building a bi-encoder with geometric alignment features and SWA, reaching ρ = 0.535, Acc = 0.722 on the held-out test set — ahead of ELECTRA-large + LoRA (ρ = 0.527).
+
+* **[Production-Grade Advanced PDF RAG Assistant](https://github.com/SATYAJIT2747/rag-chatbot)** — Production-oriented **Retrieval-Augmented Generation (RAG)** system for arbitrary PDFs including scanned documents, slide decks, diagrams, tables, and academic notes. Implements **hybrid retrieval using FAISS + BM25 with Reciprocal Rank Fusion (RRF)**, **BGE embeddings**, **cross-encoder reranking**, parent-context expansion, **dual-tier exact/semantic caching**, local **PyMuPDF + Tesseract OCR**, and Gemini-based generation. Includes **prompt-injection, PDF-scope, and grounding guardrails**, RAG evaluation metrics, cost telemetry, SQLite persistence, and **LangSmith observability**.
+
+* **[End-to-End MLOps Pipeline for Sentiment Analysis with CI/CD on AWS EKS](https://github.com/SATYAJIT2747/MLOPS-PROJ-CI-CD)** — Reproducible DVC pipeline with S3 remote storage, MLflow experiment tracking via DagsHub, Flask inference service, GitHub Actions CI/CD to ECR, Kubernetes deployment on EKS, and Prometheus/Grafana monitoring.
 
 ---
 
