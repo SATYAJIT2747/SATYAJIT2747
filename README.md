@@ -29,7 +29,7 @@
 
 * **[Rating Plausibility of Word Senses in Ambiguous Narratives](https://github.com/SATYAJIT2747/INLP-PROJECT)** *(SemEval 2026 Task 5 – AmbiStory)* — Two-phase system: Phase 1 iterated 9 recurrent models (Spearman ρ: 0.072→0.640) using setup-grouped comparative ranking; Phase 2 pivoted to transformer encoders (MPNet, DeBERTa-v3), building a bi-encoder with geometric alignment features and SWA, reaching ρ = 0.535, Acc = 0.722 on the held-out test set — ahead of ELECTRA-large + LoRA (ρ = 0.527).
 
-* **[Production-Grade Advanced PDF RAG Assistant](https://github.com/SATYAJIT2747/rag-chatbot)** — Production-oriented **Retrieval-Augmented Generation (RAG)** system for arbitrary PDFs including scanned documents, slide decks, diagrams, tables, and academic notes. Implements **hybrid retrieval using FAISS + BM25 with Reciprocal Rank Fusion (RRF)**, **BGE embeddings**, **cross-encoder reranking**, parent-context expansion, **dual-tier exact/semantic caching**, local **PyMuPDF + Tesseract OCR**, and Gemini-based generation. Includes **prompt-injection, PDF-scope, and grounding guardrails**, RAG evaluation metrics, cost telemetry, SQLite persistence, and **LangSmith observability**.
+* **[Advanced PDF RAG Assistant](https://github.com/SATYAJIT2747/rag-chatbot)** — Built a production-oriented PDF question-answering system with local ingestion using **PyMuPDF**, ligature decoding, and cached **Tesseract/RapidOCR fallback** for scanned pages. Uses **session memory** to rewrite follow-up questions into standalone queries, then applies input guardrails, an **exact cache** and a **document-scoped semantic cache** (cosine similarity ≥ 0.82). On cache misses, a hybrid retriever combines **FAISS dense search (BGE embeddings)** and **BM25**, fuses rankings with **RRF (k = 60)**, and reranks candidates with a **BGE cross-encoder** before a **PDF-scope guard** and parent-context expansion (up to 12,000 characters). Generates answers with **Gemini Flash-Lite** or a **local Qwen3.5 model via `llama-server`**, validates outputs with a grounding guard, and returns **[Page X] citations**. Includes SQLite cost/security telemetry, optional **LangSmith tracing**, a Streamlit dashboard, and a gold-dataset evaluation suite (35 questions + 15 follow-up conversations). Reported retrieval results at 512-character chunks: **Hit@5 = 1.000, Recall@5 = 0.982, MRR@10 = 0.932** for hybrid retrieval + reranking; the README documents the small evaluation-set limitations.
 
 * **[End-to-End MLOps Pipeline for Sentiment Analysis with CI/CD on AWS EKS](https://github.com/SATYAJIT2747/MLOPS-PROJ-CI-CD)** — Reproducible DVC pipeline with S3 remote storage, MLflow experiment tracking via DagsHub, Flask inference service, GitHub Actions CI/CD to ECR, Kubernetes deployment on EKS, and Prometheus/Grafana monitoring.
 
@@ -191,8 +191,8 @@
 🤖 <b>Agentic AI & Multi-Agent Systems</b><br>
 🔌 <b>Model Context Protocol (MCP)</b><br>
 🛡️ <b>AI Security & Guardrails</b><br>
-📊 <b>RAG Evaluation & Observability</b><br>
-⚡ <b>LLM Cost & Inference Optimization</b><br>
+📊 <b>RAG Evaluation, Retrieval Ablations & Observability</b><br>
+⚡ <b>LLM Cost Optimization, Caching & Local Inference</b><br>
 🚀 <b>Production MLOps & Cloud Deployment</b>
 
 </p>
