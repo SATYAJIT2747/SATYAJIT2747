@@ -37,7 +37,14 @@
   * **Known limitation:** the grounding guard still blocks 1–3 correct answers per model; the README documents this and the small evaluation-set size.
 
 
-* **[End-to-End MLOps Pipeline for Sentiment Analysis with CI/CD on AWS EKS](https://github.com/SATYAJIT2747/MLOPS-PROJ-CI-CD)** — Reproducible DVC pipeline with S3 remote storage, MLflow experiment tracking via DagsHub, Flask inference service, GitHub Actions CI/CD to ECR, Kubernetes deployment on EKS, and Prometheus/Grafana monitoring.
+* **[End-to-End MLOps Pipeline for Sentiment Analysis with CI/CD on AWS EKS](https://github.com/SATYAJIT2747/MLOPS-PROJ-CI-CD)**
+  * **Experiment Tracking & Modeling**: Iterated through 36 runs across 4 experiment suites on DagsHub MLflow; boosted F1-score from **71.3% baseline to 81.8%** (+10.5% absolute gain, 83.3% recall) using TF-IDF and tuned Logistic Regression.
+  * **Data & Pipeline Versioning**: Codified deterministic multi-stage data ingestion, preprocessing, and feature engineering pipelines using **DVC** backed by AWS S3 remote storage.
+  * **Automated CI/CD Quality Gates**: Engineered a 20-step GitHub Actions pipeline that executes model tests, validates quality metrics, and conditionally promotes champion models to the MLflow Model Registry (`Staging` ➔ `Production`).
+  * **Containerization & EKS Deployment**: Automated Docker builds pushed to **AWS ECR**, deployed with zero credentials baked in via dynamic Kubernetes Secret injection to an **AWS EKS** cluster (2 replicas behind an AWS LoadBalancer).
+  * **Production Observability**: Instrumented the Flask inference service with custom **Prometheus** metrics (request latency histograms, throughput, and class counters) visualized via **Grafana** dashboards.
+  * **Tech Stack**: `Python` • `DVC` • `MLflow` • `DagsHub` • `Docker` • `AWS (EKS, ECR, S3)` • `Kubernetes` • `GitHub Actions` • `Prometheus` • `Grafana`
+
 
 ---
 
