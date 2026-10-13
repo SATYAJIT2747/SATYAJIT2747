@@ -27,7 +27,6 @@
 
 * **[Distributed P2P File Sharing System](https://github.com/SATYAJIT2747/Distributed-P2P-File-Sharing-System)** — C++17 hybrid **Peer-to-Peer file-sharing system inspired by BitTorrent**, featuring **dual trackers with automatic failover**, TCP-based peer-to-peer transfers, parallel piece downloads using a **ThreadPool**, and **SHA1 integrity verification with automatic retries**. Implements user authentication, group-based file sharing, tracker synchronization, seeder promotion, and fault-tolerant metadata recovery. Optimized 1 GB downloads from roughly **3 minutes to ~3.4 seconds** using a fixed-size worker pool.
 
-* **[Rating Plausibility of Word Senses in Ambiguous Narratives](https://github.com/SATYAJIT2747/INLP-PROJECT)** *(SemEval 2026 Task 5 – AmbiStory)* — Two-phase system: Phase 1 iterated 9 recurrent models (Spearman ρ: 0.072→0.640) using setup-grouped comparative ranking; Phase 2 pivoted to transformer encoders (MPNet, DeBERTa-v3), building a bi-encoder with geometric alignment features and SWA, reaching ρ = 0.535, Acc = 0.722 on the held-out test set — ahead of ELECTRA-large + LoRA (ρ = 0.527).
 
 * **[Advanced PDF RAG Assistant](https://github.com/SATYAJIT2747/rag-chatbot)** — PDF question-answering system with page-cited answers and a full evaluation study. **Pipeline:** local ingestion with **PyMuPDF** and a cached **Tesseract/RapidOCR fallback** for scanned pages; **session memory** that rewrites follow-up questions into standalone queries; an **exact cache** and a **semantic cache**; hybrid retrieval (**FAISS + BM25** fused with **RRF**) reranked by a **BGE cross-encoder**; a PDF-scope guard and a grounding guard; answers from **Gemini Flash-Lite** or a **local Qwen3.5-4B model via llama.cpp**. **Evaluation** on a hand-built gold dataset (35 questions + 15 follow-up conversations across 3 PDFs):
   * **Retrieval ablation:** hybrid + reranker reached **MRR@10 = 0.932, Recall@5 = 0.982, Hit@5 = 1.000**, against MRR@10 = 0.756 for BM25 alone.
@@ -45,6 +44,7 @@
   * **Production Observability**: Instrumented the Flask inference service with custom **Prometheus** metrics (request latency histograms, throughput, and class counters) visualized via **Grafana** dashboards.
   * **Tech Stack**: `Python` • `DVC` • `MLflow` • `DagsHub` • `Docker` • `AWS (EKS, ECR, S3)` • `Kubernetes` • `GitHub Actions` • `Prometheus` • `Grafana`
 
+* **[Rating Plausibility of Word Senses in Ambiguous Narratives](https://github.com/SATYAJIT2747/INLP-PROJECT)** *(SemEval 2026 Task 5 – AmbiStory)* — Two-phase system: Phase 1 iterated 9 recurrent models (Spearman ρ: 0.072→0.640) using setup-grouped comparative ranking; Phase 2 pivoted to transformer encoders (MPNet, DeBERTa-v3), building a bi-encoder with geometric alignment features and SWA, reaching ρ = 0.535, Acc = 0.722 on the held-out test set — ahead of ELECTRA-large + LoRA (ρ = 0.527).
 
 ---
 
