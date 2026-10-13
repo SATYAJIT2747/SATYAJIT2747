@@ -5,12 +5,12 @@
   <img src="https://komarev.com/ghpvc/?username=satyajit2747&label=Profile%20views&color=0e75b6&style=flat" alt="satyajit2747" />
 </p>
 
-* 🎓 Currently pursuing **M.Tech in Computer Science & Engineering at IIIT Hyderabad (2025–2027)**
-* 🌱 Currently working with **Machine Learning, Deep Learning, NLP, LLMs, RAG, Agentic AI, Multi-Agent Systems, MCP, Guardrails, and MLOps**
-* 🔭 Building **production-oriented AI systems** with retrieval, evaluation, observability, caching, security guardrails, and deployment
-* 👨‍💻 All of my projects are available at https://github.com/SATYAJIT2747
-* 📫 How to reach me **[satyajit.priyadarshi@students.iiit.ac.in](mailto:satyajit.priyadarshi@students.iiit.ac.in)**
-* 📄 Know about my experiences [My Resume](https://drive.google.com/file/d/1_axgszn8onYkyIPZ6uhfU19zPskUCzfJ/view?usp=sharing)
+- 🎓 Currently pursuing **M.Tech in Computer Science & Engineering at IIIT Hyderabad (2025–2027)**
+- 🌱 Currently working with **Machine Learning, Deep Learning, NLP, LLMs, RAG, Agentic AI, Multi-Agent Systems, MCP, Guardrails, and MLOps**
+- 🔭 Building **production-oriented AI systems** with retrieval, evaluation, observability, caching, security guardrails, and deployment
+- 👨‍💻 All of my projects are available at [GitHub](https://github.com/SATYAJIT2747)
+- 📫 How to reach me: **[satyajit.priyadarshi@students.iiit.ac.in](mailto:satyajit.priyadarshi@students.iiit.ac.in)**
+- 📄 Know about my experience: [AI Resume](https://drive.google.com/file/d/1ehzRv9oQYjvi4SQK2KYw6Oy-6aGmDuJJ/view?usp=sharing) | [System Design Resume](https://drive.google.com/file/d/1_axgszn8onYkyIPZ6uhfU19zPskUCzfJ/view?usp=sharing)
 
 ---
 
