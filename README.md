@@ -1,9 +1,7 @@
 <h1 align="center">Hi 👋, I'm Satyajit Priyadarshi</h1>
 <h3 align="center">Machine Learning & GenAI enthusiast focused on RAG, Agentic AI, NLP, and MLOps</h3>
 
-<p align="left">
-  <img src="https://komarev.com/ghpvc/?username=satyajit2747&label=Profile%20views&color=0e75b6&style=flat" alt="satyajit2747" />
-</p>
+
 
 - 🎓 Currently pursuing **M.Tech in Computer Science & Engineering at IIIT Hyderabad (2025–2027)**
 - 🌱 Currently working with **Machine Learning, Deep Learning, NLP, LLMs, RAG, Agentic AI, Multi-Agent Systems, MCP, Guardrails, and MLOps**
