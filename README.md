@@ -42,6 +42,14 @@
   * **Production Observability**: Instrumented the Flask inference service with custom **Prometheus** metrics (request latency histograms, throughput, and class counters) visualized via **Grafana** dashboards.
   * **Tech Stack**: `Python` • `DVC` • `MLflow` • `DagsHub` • `Docker` • `AWS (EKS, ECR, S3)` • `Kubernetes` • `GitHub Actions` • `Prometheus` • `Grafana`
 
+* **[Indic-LLM: Pretraining & Multi-Entity Reasoning for Hindi & Nepali GPTs](https://github.com/SATYAJIT2747/Hindi-and-Nepali-LLM)**
+  * **Corpus Mining & Tokenizer Engineering**: Engineered asynchronous web crawlers (`aiohttp`, `trafilatura`) mining ~100M tokens/language across news & literature portals, combined with AI4Bharat Sangraha to curate two ~500M-token Devanagari corpora; trained SentencePiece BPE tokenizers (32k, 50k, 64k vocabs) achieving sub-0.5% UNK rates and low fertility ratios.
+  * **Decoder-Only Transformer Pretraining**: Implemented and pretrained custom 6-layer, 8-head, 24.9M-parameter causal GPT architectures from scratch in PyTorch using CUDA `bfloat16` mixed precision and AdamW with cosine annealing; benchmarked generation quality via chrF++, BLEU, ROUGE-L, and memory-mapped binary pipelines.
+  * **Two-Stage Curriculum Reasoning**: Formulated a 2-stage fine-tuning curriculum (Soft key-value entity binding ➔ Hard multi-candidate comparisons) with a **3.0x first-token weighted cross-entropy loss**; skyrocketed exact-match reasoning accuracy from **0.00% base to 59.2% (Hindi) and 56.5% (Nepali)** across 3,000 multi-entity test benchmarks (**100% on direct lookup**).
+  * **Attention Diagnostics & Ablation Study**: Analyzed layer-wise attention dynamics across all 48 heads (entropy, attention distance, and target-token concentration); conducted an empirical ablation study demonstrating structural reasoning collapse when positional embeddings were explicitly disabled (`use_pos_emb=False`).
+  * **Open-Source Artifacts**: Published complete pretrained checkpoints ([Hindi Model H](https://www.kaggle.com/models/satyagudu/hindi-gpt-model-h), [Nepali Model L](https://www.kaggle.com/models/satyagudu/neplai-gpt-model-l)) and tokenized datasets on Kaggle alongside 3 technical reports.
+  * **Tech Stack**: `Python` • `PyTorch (CUDA / BFloat16)` • `SentencePiece` • `Aiohttp` • `Trafilatura` • `NumPy` • `Matplotlib` • `Kaggle`
+
 
 ---
 
